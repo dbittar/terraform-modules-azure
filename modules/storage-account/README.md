@@ -8,7 +8,7 @@ Cria uma Azure Storage Account com boas práticas de segurança (TLS 1.2, tráfe
 
 ```hcl
 module "storage_account" {
-  source = "git::https://github.com/<ORG>/terraform-modules-azure.git//modules/storage-account?ref=v1.0.0"
+  source = "git::https://github.com/dbittar/terraform-modules-azure.git//modules/storage-account?ref=v1.0.0"
 
   name                = "stexemplodev001"
   resource_group_name = module.resource_group.name

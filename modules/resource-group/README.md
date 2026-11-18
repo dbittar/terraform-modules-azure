@@ -6,7 +6,7 @@ Cria um Azure Resource Group.
 
 ```hcl
 module "resource_group" {
-  source = "git::https://github.com/<ORG>/terraform-modules-azure.git//modules/resource-group?ref=v1.0.0"
+  source = "git::https://github.com/dbittar/terraform-modules-azure.git//modules/resource-group?ref=v1.0.0"
 
   name     = "rg-exemplo-dev"
   location = "brazilsouth"
